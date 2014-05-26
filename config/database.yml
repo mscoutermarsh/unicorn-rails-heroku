@@ -1,0 +1,21 @@
+# PostgreSQL. Versions 7.4 and 8.x are supported.
+#
+# Install the pg driver:
+#   gem install pg
+# On Mac OS X with macports:
+#   gem install pg -- --with-pg-config=/opt/local/lib/postgresql84/bin/pg_config
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: test-postgres_development
+  pool: 5
+  username: root
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: test-postgres_test
+  pool: 5
+  username: root
+  password:

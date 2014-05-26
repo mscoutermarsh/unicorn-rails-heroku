@@ -1,3 +1,8 @@
+=======
+unicorn-rails-heroku
+====================
+
+Example Rails app w/Unicorn on Heroku
 git clone
 
 heroku create

@@ -9,7 +9,7 @@ development:
   encoding: unicode
   database: test-postgres_development
   pool: 5
-  username: root
+  username: postgres
   password:
 
 test:
@@ -17,5 +17,5 @@ test:
   encoding: unicode
   database: test-postgres_test
   pool: 5
-  username: root
+  username: postgres
   password:

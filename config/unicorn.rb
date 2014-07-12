@@ -1,6 +1,9 @@
 # config/unicorn.rb
 
 worker_processes Integer(ENV['WEB_CONCURRENCY'] || 3)
+
+# kill long running requests. Default: 15 seconds
+# Heroku's default is 30 seconds.
 timeout Integer(ENV['WEB_TIMEOUT'] || 15)
 preload_app true
 
